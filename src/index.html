@@ -1,20 +1,110 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <!-- <script src="./data/lol/lol.js"></script> -->
-    <!-- <script src="./data/patient/patient.js"></script> -->
-    <!-- <script src="./data/rickandmorty/rickandmorty.js"></script> -->
-    <script src="data.js"></script>
-    <script src="main.js"></script>
-  </body>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  <title>Data Lovers 2.0 revenge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="img/HeaderPK.jpg" width="" alt="">
+        <a href="#"></a>
+      </div>
+    </header>
+
+    <section class="main">
+      <div id="root"></div>
+    </section>
+
+    <aside>
+      <h4>Escoge como ver a los Pokemon</h4>
+      <select class="selectPokeOrder" id="pokeOrder">
+        <option value="order">Ordenar por</option>
+        <option value="ascendantAZ">A - Z</option>
+        <option value="descendantZA">Z - A</option>
+        <option value="ascendantNumber">1 - 151</option>
+        <option value="descendantNumber">151 - 1</option>
+      </select>
+
+      <select class="selectPokeType" id="pokeType">
+        <option value="allTypes">Filtrar por tipo</option>
+        <option value="Water">Agua</option>
+        <option value="Bug">Bicho</option>
+        <option value="Dragon">Dragon</option>
+        <option value="Electric">Eléctrico</option>
+        <option value="Ghost">Fantasma</option>
+        <option value="Fire">Fuego</option>
+        <option value="Ice">Hielo</option>
+        <option value="Fighting">lucha</option>
+        <option value="Normal">Normal</option>
+        <option value="Grass">Planta</option>
+        <option value="Psychic">Psíquico</option>
+        <option value="Rock">Roca</option>
+        <option value="Ground">Tierra</option>
+        <option value="Poison">Veneno</option>
+        <option value="Flying">Volador</option>
+      </select>
+
+      <select class="selectPokeEgg" id="pokeEgg">
+          <option value="allEggs">Filtrar Huevos</option>
+          <option value="2 km">2 km.</option>
+          <option value="5 km">5 km.</option>
+          <option value="10 km">10 km.</option>
+          <option value="Not in Eggs">No en huevos</option>
+        </select>
+
+        <select class="selectPokeWeakness" id="pokeWeakness">
+            <option value="allWeakness">Filtrar por debilidad</option>
+            <option value="Water">Agua</option>
+            <option value="Bug">Bicho</option>
+            <option value="Dragon">Dragon</option>
+            <option value="Electric">Eléctrico</option>
+            <option value="Ghost">Fantasma</option>
+            <option value="Fire">Fuego</option>
+            <option value="Ice">Hielo</option>
+            <option value="Fighting">lucha</option>
+            <option value="Normal">Normal</option>
+            <option value="Grass">Planta</option>
+            <option value="Psychic">Psíquico</option>
+            <option value="Rock">Roca</option>
+            <option value="Ground">Tierra</option>
+            <option value="Poison">Veneno</option>
+            <option value="Flying">Volador</option>
+          </select>
+
+    </aside>
+
+    <footer>
+      <section class="links">
+        <a href="https://pokemongolive.com/es/" target="_blank">Sitio Pokemon GO Oficial</a>
+      </section>
+
+      <div class="social">
+        <a href="https://www.facebook.com/PokemonGO/" target="_blank">Facebook</a>
+        <a href="https://twitter.com/PokemonGoApp" target="_blank">Twitter</a>
+      </div>
+    </footer>
+  </div>
+
+  
+
+  <!-- <script src="./data/injuries/injuries.js"></script> -->
+  <script src="./data/pokemon/pokemon.js"></script>
+  <!-- <script src="./data/steam/steam.js"></script> -->
+  <!-- <script src="./data/worldbank/worldbank.js"></script> -->
+  <!-- <script src="./data/lol/lol.js"></script> -->
+  <!-- <script src="./data/patient/patient.js"></script> -->
+  <!-- <script src="./data/rickandmorty/rickandmorty.js"></script> -->
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+
 </html>

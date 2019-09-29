@@ -4083,5 +4083,6 @@ const POKEMON = {
       "Dark"
     ]
   }]
-}
-;;
+};
+
+window.POKEMON = POKEMON;

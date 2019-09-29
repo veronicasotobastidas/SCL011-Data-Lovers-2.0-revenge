@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	background:#fffffc;
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+
+	/* Flexbox */
+	display:flex;
+	flex-flow:row wrap;
+}
+
+body {
+    background:#f2f2f2;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+	background:#fffffc;
+	width:100%;
+	padding:20px;
+
+	/* Flexbox */
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+header .logo {
+	color:#fffffc;
+	font-size:30px;
+}
+
+header .logo img {
+	width:100%;
+	align-items: initial;
+}
+
+header .logo a {
+	color:#fffffc;
+	text-decoration: none;
+	line-height:50px;
+}
+
+.main {
+	background:#fffffc;
+	padding:20px;
+
+	flex:1 1 70%;
+	/*flex:1;*/
+}
+
+aside {
+	background:#fffffc;
+	padding:20px;
+	/*FLEX*/
+	flex:1 1 30%;
+	/*flex:0 0 300px;*/
+
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	justify-content:flex-start;
+}
+
+.selectBox {
+    appearance: none;
+    background-color: #fff760;
+    color: #000000;
+    border: none;
+    width: 75%;
+    height: 45px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+footer {
+	background:#cecec8;
+	width: 100%;
+	padding:15px;
+
+	/* Flexbox */
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+footer .links {
+	background:#cecec8;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+footer .links a {
+	flex-grow:1;
+
+	color:#000000;
+	padding:10px;
+	text-align: center;
+	text-decoration:unset;
+}
+
+footer .links a:hover {
+	text-decoration: underline;
+}
+
+footer .social {
+	background:#cecec8;
+}
+
+footer .social a {
+	color:#000000;
+	text-decoration: none;
+	padding:10px;
+	display: inline-block;
+}
+
+footer .social a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+	.container {
+		flex-direction:column;
+	}
+
+	header {
+		flex-direction:column;
+		padding:0;
+	}
+
+	header .logo {
+		margin:20px 0;
+	}
+
+	header nav {
+		width: 100%;
+	}
+
+	aside {
+		flex-direction:row;
+		flex:0;
+	}
+
+	aside .widget {
+		flex-grow:1;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	aside {
+		flex-direction:column;
+	}
+
+	footer {
+		justify-content:space-around;
+	}
+}
