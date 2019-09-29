@@ -17,8 +17,9 @@
 
 body {
 	background-image: url("img/pokeball-pix.jpg");
+	background-attachment: fixed;
 	background-repeat: repeat;
-	background:#f2f2f2;
+	background-color:#f2f2f2;
 	font-family: 'Rubik', sans-serif;
 }
 
@@ -56,6 +57,7 @@ header .logo a {
 	background:#fffffc;
 	width:60%;
 	padding:20px;
+	flex-direction: row;
 
 	flex:1 1 70%;
 	/*flex:1;*/
@@ -74,15 +76,14 @@ aside {
 	justify-content:flex-start;
 }
 
-.select {
+.styleSelect {
     appearance: none;
     background-color: #fff760;
-    color: #000000;
+	color: #000000;
+	margin-top: 2%;
     border: none;
-    width: 75%;
-    height: 45px;
-    margin-left: 30%;
-    margin-top: 5%;
+    width: 95%;
+	height: 35px;
 }
 
 footer {
@@ -164,3 +165,91 @@ footer .social a:hover {
 		justify-content:space-around;
 	}
 }
+
+.card { 
+	margin-bottom: 20px;
+	margin-right: 10px;
+	max-width: 200px;
+	position: relative;
+	width: 100%;
+	background: #fff;
+	border: 1px solid #ddd; 
+	border-radius: 10px;
+	display: block;
+}
+
+.card-content {
+		padding: 15px;
+		flex: 1 1 auto; 
+		text-align: center;
+}
+	  
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 64%;
+	left: 50%;
+	width: 100%;
+	height: auto;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text {
+	background-color: rgba(241, 236, 137, 0.658);
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 16px 15px;
+	border: 1px solid #ddd; 
+	border-radius: 10px;
+}
+
+.average {
+	background-color: #fff760;
+	color: black;
+	font-size: 14px;
+	padding: 16px 15px;
+	border: 1px solid #ddd; 
+	border-radius: 10px;
+	margin-top: 10%;
+    border: none;
+	width: 95%;
+	text-align: center;
+}
+	  
+.card:hover .card {
+	opacity: 0.3;
+}
+	  
+.card:hover .middle {
+	opacity: 1;
+}
+
+/* Float four columns side by side */
+.column {
+	float: left;
+	width: 30%;
+	padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	  display: block;
+	  margin-bottom: 20px;
+	}
+  }

@@ -21,12 +21,28 @@
     </header>
 
     <section class="main">
-      <div id="root"></div>
+      <div id="root">
+
+        <!--
+        <div class="card">
+          <div class="card-content">
+            <h3>NUMBER</h3>
+            <p>NOMBRE</p>
+            <img src="http://placekitten.com/g/320/180" width="200px">
+
+            <div class="middle">
+              <div class="text">PRUEBA</div>
+            </div>
+
+          </div>
+        </div> -->
+
+      </div>
     </section>
 
     <aside>
       <h4>Escoge como ver a los Pokemon</h4>
-      <select class="selectPokeOrder" id="pokeOrder">
+      <select class="styleSelect" id="pokeOrder">
         <option value="order">Ordenar por</option>
         <option value="ascendantAZ">A - Z</option>
         <option value="descendantZA">Z - A</option>
@@ -34,7 +50,7 @@
         <option value="descendantNumber">151 - 1</option>
       </select>
 
-      <select class="selectPokeType" id="pokeType">
+      <select class="styleSelect" id="pokeType">
         <option value="allTypes">Filtrar por tipo</option>
         <option value="Water">Agua</option>
         <option value="Bug">Bicho</option>
@@ -53,32 +69,34 @@
         <option value="Flying">Volador</option>
       </select>
 
-      <select class="selectPokeEgg" id="pokeEgg">
-          <option value="allEggs">Filtrar Huevos</option>
-          <option value="2 km">2 km.</option>
-          <option value="5 km">5 km.</option>
-          <option value="10 km">10 km.</option>
-          <option value="Not in Eggs">No en huevos</option>
-        </select>
+      <select class="styleSelect" id="pokeEgg">
+        <option value="allEggs">Filtrar Huevos</option>
+        <option value="2 km">2 km.</option>
+        <option value="5 km">5 km.</option>
+        <option value="10 km">10 km.</option>
+        <option value="Not in Eggs">No en huevos</option>
+      </select>
 
-        <select class="selectPokeWeakness" id="pokeWeakness">
-            <option value="allWeakness">Filtrar por debilidad</option>
-            <option value="Water">Agua</option>
-            <option value="Bug">Bicho</option>
-            <option value="Dragon">Dragon</option>
-            <option value="Electric">Eléctrico</option>
-            <option value="Ghost">Fantasma</option>
-            <option value="Fire">Fuego</option>
-            <option value="Ice">Hielo</option>
-            <option value="Fighting">lucha</option>
-            <option value="Normal">Normal</option>
-            <option value="Grass">Planta</option>
-            <option value="Psychic">Psíquico</option>
-            <option value="Rock">Roca</option>
-            <option value="Ground">Tierra</option>
-            <option value="Poison">Veneno</option>
-            <option value="Flying">Volador</option>
-          </select>
+      <select class="styleSelect" id="pokeWeakness">
+        <option value="allWeakness">Filtrar por debilidad</option>
+        <option value="Water">Agua</option>
+        <option value="Bug">Bicho</option>
+        <option value="Dragon">Dragon</option>
+        <option value="Electric">Eléctrico</option>
+        <option value="Ghost">Fantasma</option>
+        <option value="Fire">Fuego</option>
+        <option value="Ice">Hielo</option>
+        <option value="Fighting">lucha</option>
+        <option value="Normal">Normal</option>
+        <option value="Grass">Planta</option>
+        <option value="Psychic">Psíquico</option>
+        <option value="Rock">Roca</option>
+        <option value="Ground">Tierra</option>
+        <option value="Poison">Veneno</option>
+        <option value="Flying">Volador</option>
+      </select>
+
+      <div id="averagePoke"></div>
 
     </aside>
 
@@ -94,7 +112,7 @@
     </footer>
   </div>
 
-  
+
 
   <!-- <script src="./data/injuries/injuries.js"></script> -->
   <script src="./data/pokemon/pokemon.js"></script>
