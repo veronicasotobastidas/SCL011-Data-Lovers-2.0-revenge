@@ -16,8 +16,10 @@
 }
 
 body {
-    background:#f2f2f2;
-    font-family: 'Rubik', sans-serif;
+	background-image: url("img/pokeball-pix.jpg");
+	background-repeat: repeat;
+	background:#f2f2f2;
+	font-family: 'Rubik', sans-serif;
 }
 
 header {
@@ -52,6 +54,7 @@ header .logo a {
 
 .main {
 	background:#fffffc;
+	width:60%;
 	padding:20px;
 
 	flex:1 1 70%;
@@ -61,17 +64,17 @@ header .logo a {
 aside {
 	background:#fffffc;
 	padding:20px;
-	/*FLEX*/
+	/*Flex*/
 	flex:1 1 30%;
-	/*flex:0 0 300px;*/
 
+	/*flex:0 0 300px;*/
 	display: flex;
 	flex-wrap:wrap;
 	flex-direction:column;
 	justify-content:flex-start;
 }
 
-.selectBox {
+.select {
     appearance: none;
     background-color: #fff760;
     color: #000000;
@@ -150,9 +153,6 @@ footer .social a:hover {
 		flex:0;
 	}
 
-	aside .widget {
-		flex-grow:1;
-	}
 }
 
 @media screen and (max-width: 600px) {

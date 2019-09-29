@@ -1,18 +1,18 @@
-const dataPokemon = POKEMON;
-window.dataPokemon = dataPokemon;
-
-const rootContainer = document.getElementById("root");
+const dataPokemon = window.POKEMON;
 let selectPokeType = document.getElementById("pokeType");
 let selectPokeEgg = document.getElementById("pokeEgg");
 let selectPokeOrder = document.getElementById("pokeOrder");
 let selectPokeWeakness = document.getElementById("pokeWeakness");
-let pokeTypeValue, pokeEggValue, pokeOrderValue, pokeWeaknessValue;
+let pokeTypeValue;
+let pokeEggValue;
+let pokeOrderValue;
+let pokeWeaknessValue;
 
 showPokemon(dataPokemon.pokemon);
 
 function showPokemon(data){
     let pokemonIMG;
-    for (i = 0; i<data.length; i++) {
+    for (let i = 0; i<data.length; i++) {
         pokemonIMG = document.createElement("img");
         pokemonIMG.src = data[i].img;
 
