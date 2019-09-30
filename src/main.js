@@ -14,7 +14,7 @@ showPokemon(dataPokemon.pokemon);
 //FUNCIÓN MOSTRAR
 function showPokemon(data) {
 
-    let pokeCard, pokeCardContent, pokeH3, pokeP, pokemonIMG, pokeCardMiddle, pokeCardText, pokeColumn, pokeRow;
+    let pokeCard, pokeCardContent, pokeH3, pokeP, pokemonIMG, pokeCardMiddle, pokeCardText, pokeColumn;
 
     for (let i = 0; i < data.length; i++) {
 

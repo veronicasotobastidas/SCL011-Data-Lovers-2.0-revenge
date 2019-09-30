@@ -6,7 +6,7 @@
 
 .container {
 	background:#fffffc;
-	width:90%;
+	width:100%;
 	max-width:1000px;
 	margin:auto;
 
@@ -26,7 +26,7 @@ body {
 header {
 	background:#fffffc;
 	width:100%;
-	padding:20px;
+	padding:10px;
 
 	/* Flexbox */
 	display: flex;
@@ -52,7 +52,9 @@ header .logo a {
 	text-decoration: none;
 	line-height:50px;
 }
-
+h4, h5 {
+	margin-top: 2%;
+}
 .main {
 	background:#fffffc;
 	width:60%;
@@ -65,22 +67,38 @@ header .logo a {
 
 aside {
 	background:#fffffc;
-	padding:20px;
+	padding:10px;
+	
 	/*Flex*/
 	flex:1 1 30%;
-
 	/*flex:0 0 300px;*/
 	display: flex;
-	flex-wrap:wrap;
+	/*flex-wrap:wrap;*/
 	flex-direction:column;
 	justify-content:flex-start;
 }
 
+.caption {
+    background-color: #fff760;
+	border-radius: 10px;
+	width: 95%;
+    padding: 15px;
+	color: #000;
+	font-size: 15px;
+	text-align: justify;
+	margin-bottom: 10%;
+
+	display: flex;
+    flex-direction: row;
+}
+
 .styleSelect {
     appearance: none;
-    background-color: #fff760;
-	color: #000000;
+	background-color: #fff760;
+	border-radius: 5px;
+	color: #000;
 	margin-top: 2%;
+	margin-bottom: 5%;
     border: none;
     width: 95%;
 	height: 35px;
@@ -131,7 +149,86 @@ footer .social a:hover {
 	text-decoration: underline;
 }
 
-@media screen and (max-width: 800px) {
+.card { 
+	margin-bottom: 20px;
+	margin-right: 10px;
+	max-width: 200px;
+	position: relative;
+	width: 100%;
+	background: #fff;
+	border: 1px solid #ddd; 
+	border-radius: 10px;
+	display: block;
+	flex: 1 1 auto; 
+}
+
+.card-content {
+		padding: 15px;
+		flex: 1 1 auto; 
+		text-align: center;
+}
+	  
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 64%;
+	left: 50%;
+	width: 100%;
+	height: auto;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text {
+	background-color: rgba(255, 253, 161, 0.507);
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 16px 15px;
+	border: 1px solid #ddd; 
+	border-radius: 10px;
+}
+
+.average {
+	background-color: #fff760;
+	color: #000;
+	font-size: 14px;
+	padding: 16px 15px;
+	border: none; 
+	border-radius: 10px;
+	margin-top: 10%;
+   	width: 95%;
+	text-align: center;
+}
+	  
+.card:hover .card {
+	opacity: 0.3;
+}
+	  
+.card:hover .middle {
+	opacity: 1;
+}
+
+/* Float four columns side by side */
+.column {
+	float: left;
+	width: 30%;
+	padding: 0 10px;
+  }
+  
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+  
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  @media screen and (max-width: 800px) {
 	.container {
 		flex-direction:column;
 	}
@@ -166,86 +263,7 @@ footer .social a:hover {
 	}
 }
 
-.card { 
-	margin-bottom: 20px;
-	margin-right: 10px;
-	max-width: 200px;
-	position: relative;
-	width: 100%;
-	background: #fff;
-	border: 1px solid #ddd; 
-	border-radius: 10px;
-	display: block;
-}
-
-.card-content {
-		padding: 15px;
-		flex: 1 1 auto; 
-		text-align: center;
-}
-	  
-.middle {
-	transition: .5s ease;
-	opacity: 0;
-	position: absolute;
-	top: 64%;
-	left: 50%;
-	width: 100%;
-	height: auto;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	text-align: center;
-}
-
-.text {
-	background-color: rgba(241, 236, 137, 0.658);
-	color: black;
-	font-size: 14px;
-	font-weight: bold;
-	padding: 16px 15px;
-	border: 1px solid #ddd; 
-	border-radius: 10px;
-}
-
-.average {
-	background-color: #fff760;
-	color: black;
-	font-size: 14px;
-	padding: 16px 15px;
-	border: 1px solid #ddd; 
-	border-radius: 10px;
-	margin-top: 10%;
-    border: none;
-	width: 95%;
-	text-align: center;
-}
-	  
-.card:hover .card {
-	opacity: 0.3;
-}
-	  
-.card:hover .middle {
-	opacity: 1;
-}
-
-/* Float four columns side by side */
-.column {
-	float: left;
-	width: 30%;
-	padding: 0 10px;
-  }
-  
-  /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  .row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-  
-  /* Responsive columns */
+  /* Responsive columns (cards) */
   @media screen and (max-width: 600px) {
 	.column {
 	  width: 100%;

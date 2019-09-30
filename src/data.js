@@ -2,7 +2,6 @@
 //Le llegan como parametros la data y el orden que seleccionó el usuario
 const filterPokeOrder = (dataPokemon, order) => {
     let namePokemonOrder;
-
     //Si el usuario selecciona el orden por letra de forma ascendente
     if(order == "ascendantAZ"){
         //Utiliza sort para ir ordenando tomando el nombre de cada pokemon para ir comparando
