@@ -1,6 +1,6 @@
 # Pokémon Go Easy Guide
 
-![](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/Header-Readme.jpg)
+![](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/Header-Readme-2.jpg)
 
 ## **Índice**
 
