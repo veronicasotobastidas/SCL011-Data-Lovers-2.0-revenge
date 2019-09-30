@@ -85,9 +85,11 @@ Esta se realizó en base a las historias de usuario y en base a ellas se definio
 
 1.  Acceder a la página
 2.  Previsualizar la información básica del Pókemon 
+
     >Número - Nombre - Imagen
     
-3.  Podrá ver más datos de cada pokemon para conocer información que complementa de sus caracteríticas    
+3.  Podrá ver más datos de cada pokemon para conocer información que complementa de sus caracteríticas  
+
     > Su tipo original y sub tipos. Altura - Peso - Huevos - Promedio de Aparición en un rango de 10,000
     
 4.  Podrá cerrar las busquedas y volver a realizar otra cuando el usuario actualice la página.
@@ -97,7 +99,8 @@ Esta se realizó en base a las historias de usuario y en base a ellas se definio
 8.  Filtrará los pokémon según su huevo (si lo tiene)
 9.  Filtrará los pokémon según su debilidad
 10.  Conocerá estadísticas asociadas a su tipo y características
-    > peso, altura, eclosión de huevo (deslizando el puntero del mouse por sobre la imagen en un :hover Selector)
+
+    > Peso, altura, eclosión de huevo (deslizando el puntero del mouse por sobre la imagen en un :hover Selector)
 
 
 ##  Diseño
