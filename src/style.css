@@ -16,10 +16,10 @@
 }
 
 body {
-	background-image: url("img/pokeball-pix.jpg");
+	background-image: url("img/pokeball-8-bit.jpg");
 	background-attachment: fixed;
 	background-repeat: repeat;
-	background-color:#f2f2f2;
+	background-color:hsla(0, 0%, 95%, 0.918);
 	font-family: 'Rubik', sans-serif;
 }
 
@@ -52,9 +52,16 @@ header .logo a {
 	text-decoration: none;
 	line-height:50px;
 }
+
+h3 {
+	margin-bottom: 20px;
+}
+
 h4, h5 {
 	margin-top: 2%;
+	margin-bottom: 5px;
 }
+
 .main {
 	background:#fffffc;
 	width:60%;

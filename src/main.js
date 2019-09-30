@@ -3,10 +3,7 @@ let selectPokeType = document.getElementById("pokeType");
 let selectPokeEgg = document.getElementById("pokeEgg");
 let selectPokeOrder = document.getElementById("pokeOrder");
 let selectPokeWeakness = document.getElementById("pokeWeakness");
-let pokeTypeValue;
-let pokeEggValue;
-let pokeOrderValue;
-let pokeWeaknessValue;
+let pokeTypeValue, pokeEggValue, pokeOrderValue, pokeWeaknessValue;
 
 //Se llama a la función mostrar para mostrar todos los pokemon desde que se carga la página
 showPokemon(dataPokemon.pokemon);
@@ -160,7 +157,6 @@ selectPokeEgg.addEventListener("change", () => {
 
     //Indica que el div de clase average debe ser mostrado en el div de id averagePoke creado en el HTML
     document.getElementById("averagePoke").appendChild(divAverage).innerHTML;
-console.log(resultEgg);
     //Llama a la función que muestra a los pokemon enviandole la data ya filtrada
     showPokemon(resultEgg);
 });
