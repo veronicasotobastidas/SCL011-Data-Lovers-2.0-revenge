@@ -7,7 +7,7 @@ require('./data.spec.js');
 
 describe('filterPokeType()', () => {
 
-  const sample = [
+  const sample1 = [
     {
       "name": "Squirtle",
       "type": [
@@ -16,26 +16,26 @@ describe('filterPokeType()', () => {
 
     },
     {
-      "name": "Wartortle",
+      "name": "Charmander",
       "type": [
-        "Water"
+        "Fire"
       ]
     }
   ];
 
 
   it('Debería ser una función', () => {
-    assert.equal(typeof window.pokemon.filterPokeType, 'function');
+    assert.equal(typeof window.filterPokeType, 'function');
   });
 
   it('debería retornar "Squirtle" al buscar tipo "Water"', () => {
-    assert.deepEqual(window.pokemon.filterPokeType((sample), 'Water'), [{ "name": "Squirtle", "type": ["Water"] }]);
+    assert.deepEqual(window.filterPokeType(sample1, "Water"), [{ "name": "Squirtle", "type": ["Water"] }]);
   });
 }),
 
   describe('filterPokeEgg()', () => {
 
-    const sample = [
+    const sample1 = [
       {
         "name": "Ekans",
         "egg": "5 km"
@@ -54,17 +54,17 @@ describe('filterPokeType()', () => {
 
 
     it('Debería ser una función', () => {
-      assert.equal(typeof window.pokemon.filterPokeEgg, 'function');
+      assert.equal(typeof window.filterPokeEgg, 'function');
     });
 
     it('debería retornar "Ekans" al buscar huevo de "5 km"', () => {
-      assert.deepEqual(window.pokemon.filterPokeEgg((sample), '5 km'), [{ "name": "Ekans", "egg": "5 km" }]);
+      assert.deepEqual(window.filterPokeEgg(sample1, '5 km'), [{ "name": "Ekans", "egg": "5 km" }]);
     });
   }),
 
   describe('filterPokeWeakness()', () => {
 
-    const sample = [
+    const sample1 = [
       {
         "name": "Squirtle",
         "weaknesses": [
@@ -84,11 +84,11 @@ describe('filterPokeType()', () => {
 
 
     it('Debería ser una función', () => {
-      assert.equal(typeof window.pokemon.filterPokeWeakness, 'function');
+      assert.equal(typeof window.filterPokeWeakness, 'function');
     });
 
     it('debería retornar "Squirtle" al buscar debilidad "Electric"', () => {
-      assert.deepEqual(window.pokemon.filterPokeWeakness((sample), 'Electric'), [{
+      assert.deepEqual(window.filterPokeWeakness(sample1, 'Electric'), [{
         "name": "Squirtle", "weaknesses": [
           "Electric",
           "Grass"
