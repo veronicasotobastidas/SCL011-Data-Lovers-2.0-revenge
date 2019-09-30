@@ -160,7 +160,7 @@ selectPokeEgg.addEventListener("change", () => {
 
     //Indica que el div de clase average debe ser mostrado en el div de id averagePoke creado en el HTML
     document.getElementById("averagePoke").appendChild(divAverage).innerHTML;
-
+console.log(resultEgg);
     //Llama a la función que muestra a los pokemon enviandole la data ya filtrada
     showPokemon(resultEgg);
 });
