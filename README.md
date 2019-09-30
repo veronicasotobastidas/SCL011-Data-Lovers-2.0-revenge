@@ -24,17 +24,17 @@
 
 ## Preámbulo
 
-"Pokémon Easy Guide" es una guía fácil, o simple, que contiene información para jugadores de Pokémon Go y está enfocada en los 151 Pokémon de la región de Kanto. En ella se pueden visualizar datos de cada pokemon por peso, altura, huevos o tipo, y también, conocer sus debilidades para prepararlos en futuras batallas Pokémon. 
+**"Pokémon Easy Guide"** es una guía fácil, o simple, que contiene información para jugadores de Pokémon Go y está enfocada en los 151 Pokémon de la región de Kanto. En ella se pueden visualizar datos de cada pokemon por peso, altura, huevos o tipo, y también, conocer sus debilidades para prepararlos en futuras batallas Pokémon. 
 
 
 ## Definición de Usuario
 
-El usuario de esta aplicación es una persona de entre los 15 y 30 años, sin distingir genéro. No es jugador experto pero tiene conocimiento acerca de la serie de televisión "Pokémon" y ha instalado la aplicación Pokemon GO en su dispositivo móvil. Quiere ganar experiancia en el juego y para ello necesita conocer datos acerca de cada Pokémon.
+El usuario de esta página web es una persona de entre los 15 y 30 años, sin distingir genéro. No es jugador experto pero tiene conocimiento acerca de la serie de televisión "Pokémon" y ha instalado la aplicación "Pokémon GO" en su dispositivo móvil. Quiere ganar experiencia en el juego y para ello necesita conocer datos acerca de cada Pokémon.
 
 
 ### Investigación del Usuario
 
-Se relizaron entrevistas a usuarios del juego donde en su mayoria se trata de usuarios nuevos o que han empezado a jugar tardiamente. Conocen la franquicia Pokémon y Pokémon GO pero solo tienen información en general del juego. Un porcentaje pequeño, entre 25 y 30 años, juega por nostalgia de su epoca de niñez. Usa aplicaciones o visita páginas web para conocer estadísticas de los Pokémon e investiga por su cuenta. Desea llegar a nivels altos, número 30 o 40, del juego.
+Se relizaron entrevistas a usuarios del juego donde en su mayoria se trata de usuarios nuevos o que han empezado a jugar tardiamente. Conocen la franquicia Pokémon y Pokémon GO pero solo tienen información en general del juego. Un porcentaje pequeño, entre 25 y 30 años, juega por nostalgia de su época de niñez. Usa aplicaciones o visita páginas web para conocer estadísticas de los Pokémon e investiga por su cuenta. Desea llegar a niveles altos, número 30 o 40, del juego.
 
 
 ## Historias de Usuario
@@ -46,7 +46,7 @@ Yo como jugador de Pokémon Go, quiero ver a todos los personajes de la región 
 Yo como jugador de Pokémon Go, quiero poder filtrar los pokémon por su tipo, para poder ver solo aquellos de mi tipo favorito.
 
 ### HU3
-Yo como jugador de Pokémon Go, quiero poder filtrar por huevo, para saber que huevos eclosionar dependiendo de del pokemon que quiero.
+Yo como jugador de Pokémon Go, quiero poder filtrar por huevo, para saber que huevos eclosionar dependiendo de del pokémon que quiero.
 
 ### HU4
 Yo como jugador de Pokémon Go, quiero poder filtrar por debilidad, para poder batallar en los gimnasios y ver que pokémon equipar.
@@ -66,7 +66,7 @@ Yo como jugador de Pokémon Go, quiero poder filtrar por debilidad, para poder b
 
 ### Experiencia
 
-El usuario de esta aplicación ingresará a la página y podrá ver la lista completa de los 151 Pokémons de la región de Kanto. Cada tarjeta donde se muestra el pokémon tendrá su nombre, número en la pokédex y datos de su peso, altura, huevo y promedio de aparición. En una columna ubicada al lado derecho, se muestran los selectores que permiten al usuario realizar filtros según el tipo de pokémon, huevo o tipo de debilidad. A continuación y debajo de los selectores, cada vez que el usuraio aplica algun filtro, aparecen estadísticas en porcentaje de los pokémon por tipo, huevo y debilidad, kilometros de incubación de huevos y datos de su promedio de aparición. 
+El usuario de esta aplicación ingresará a la página y podrá ver la lista completa de los 151 Pokémon de la región de Kanto. Cada tarjeta donde se muestra el pokémon tendrá su nombre, número en la pokédex y datos de su peso, altura, huevo y promedio de aparición. En una columna ubicada al lado derecho, se muestran los selectores que permiten al usuario realizar filtros según el tipo de pokémon, huevo o tipo de debilidad. A continuación y debajo de los selectores, cada vez que el usuraio aplica algun filtro, aparecen estadísticas en porcentaje de los pokémon por tipo, huevo y debilidad, kilometros de incubación de huevos y datos de su promedio de aparición. 
 
 
 ### Requerimientos de la Aplicación
@@ -76,12 +76,12 @@ El usuario de esta aplicación ingresará a la página y podrá ver la lista com
 -   El usuario tendrá acceso a toda la interación en la página principal
 -   Debe permitir ordenar de forma alfabética y por número.
 -   Debe permitir realizar búsquedas por tipo
--   Debe mostrar estadísticas
+-   Debe poder ver estadísticas
 
 
 ### Planificación 
 
-Esta se realizó en base a las historias de usuario y en base a ellas se definio el trabajo de cada sección consecutiva en la página.
+Esta se realizó en con las historias de usuario y en base a ellas se definio el trabajo de cada sección consecutiva en la página.
 
 1.  Acceder a la página
 2.  Previsualizar la información básica del Pókemon 
@@ -90,17 +90,17 @@ Esta se realizó en base a las historias de usuario y en base a ellas se definio
     
 3.  Podrá ver más datos de cada pokemon para conocer información que complementa de sus caracteríticas  
 
-    >Su tipo original y sub tipos. Altura - Peso - Huevos - Promedio de Aparición en un rango de 10,000
+    >Ver Tipo Original y Sub Tipo - Altura - Peso - Huevo - Promedio de Aparición en un rango de 10,000
     
 4.  Podrá cerrar las busquedas y volver a realizar otra cuando el usuario actualice la página.
-5.  Ordenará la búsqueda de manera alfabética ascente y descente
-6.  Ordenará la búsqueda de forma númerica ascente y descente
+5.  Ordenará la búsqueda de manera alfabética, ascente y descente
+6.  Ordenará la búsqueda de forma númerica, ascente y descente
 7.  Filtrará los pokémon según su tipo
 8.  Filtrará los pokémon según su huevo (si lo tiene)
 9.  Filtrará los pokémon según su debilidad
 10.  Conocerá estadísticas asociadas a su tipo y características
 
-     >Peso, altura, eclosión de huevo (deslizando el puntero del mouse por sobre la imagen en un :hover Selector)
+     >Peso - Altura - Eclosión de huevo (deslizando el puntero del mouse por sobre la imagen en un :hover Selector)
 
 
 ##  Diseño
