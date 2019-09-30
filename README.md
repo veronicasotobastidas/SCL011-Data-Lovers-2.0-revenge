@@ -2,16 +2,25 @@
 
 ## **Índice**
 
-* [Preámbulo](#preámbulo)
-* [Descripción](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Parte opcional](#parte-opcional-hacker-edition)
-* [Consideraciones técnicas](#consideraciones-técnicas)
-* [Primeros pasos](#primeros-pasos)
-* [Contenido de referencia](#contenido-de-referencia)
-* [Checklist](#checklist)
+*  [Preámbulo](#preámbulo)
+
+*  [Definición de Usuario](#definicion-de-usuario)
+
+*  [Historias de Usuario](#historias-de-usuario)
+
+*  [Criterios de aceptación](#criterios-de-aceptacion)
+
+*  [Definición del Producto](#definicion-del-producto)
+
+*  [Diseño](#diseno)
+
+*  [Decisiones de Diseño](#decisiones-de-Diseño)
+
+*  [Producto Final](#producto-final)
+
+*  [Checklist](#checklist)
+
+  
 
 ***
 
@@ -23,25 +32,25 @@
 
 El usuario de esta aplicación es una persona de entre los 15 y 30 años, sin distingir genéro. No es jugador experto pero tiene conocimiento acerca de la series de televisión Pókemon y ha instalado la aplicación en su dispositivo móvil. Quiere ganar experiancia en el juego Pókemon Go y para ello necesita conocer datos acerca de los pókemon.
 
-## 2.4 Historias de Usuario
+## Historias de Usuario
 
 ### HU 1
-Yo como jugador de Pokemon Go, quiero ver a todos los personajes de la región de Kanto para encontrarlos por su nombre.
+Yo como jugador de Pokemon Go, quiero ver a todos los personajes de la región de Kanto, para encontrarlos por su nombre.
 
 ### HU2
-Yo como jugador de Pokemon Go quiero poder filtrar los pokemon por su tipo para poder ver solo aquellos de mi tipo favorito.
+Yo como jugador de Pokemon Go, quiero poder filtrar los pokemon por su tipo, para poder ver solo aquellos de mi tipo favorito.
 
 ### HU3
-Yo como jugador de Pokemon Go quiero poder filtrar por huevo para saber que huevos eclosionar dependiendo de del pokemon que quiero.
+Yo como jugador de Pokemon Go, quiero poder filtrar por huevo, para saber que huevos eclosionar dependiendo de del pokemon que quiero.
 
 ### HU4
-Yo como jugador de Pokemon Go quiero poder filtrar por debilidad para poder batallar en los gimnasios y ver que pokemon equipar.
+Yo como jugador de Pokemon Go, quiero poder filtrar por debilidad, para poder batallar en los gimnasios y ver que pokemon equipar.
  
 
 ## Criterios de aceptación y requerimientos DOD
 
 -   Mostrar la lista de todos los pokémons según su número y nombre
--  Ordenar los personajes de A-Z y Z-A, tambien por su número
+-   Ordenar los personajes de A-Z y Z-A, tambien por su número
 -   Filtrar los pokémons según su tipo
 -   Filtrar los pokémons según huevo
 -   Mostrar información más específica, como estadísticas de cada pokémon
@@ -75,20 +84,12 @@ Se realizó en base a las historias de usuario, estas definicieron el trabajo de
     
 4.  Podrá cerrar las busquedas y volver a realizar otra cuando el usuario actualice la página.
 5.  Ordenará la búsqueda de manera alfabética ascente y descente
-6. Filtrará los pokémons según su tipo
-7.  Filtrará los pokémons según su debilidad
+6.  Filtrará los pokemon según su tipo
+7.  Filtrará los pokemon según su debilidad
 8.  Conocerá estadísticas asociadas a su tipo
 9.  Conocerá estadísticas asociadas a sus características
 
-#  Diseño
-
-### Mapa de Flujo
-
-### Wireframes
-
-Comenzamos a trabajar en un prototipo de baja fidelidad considerando los niveles de navegación de nuestro mapa de flujo, el diseño fue pensado también como un responsive.
-
-## Decisiones de Diseño
+##  Diseño
 
 ### Control de Flujo
 ```text
@@ -138,5 +139,34 @@ Comenzamos a trabajar en un prototipo de baja fidelidad considerando los niveles
 │   │   ├── Veneno
 │   │   ├── Volador
 │   ├── Calculo - Estadisticas
+
 ```
 ### Prototipo Baja Fifelidad
+
+![Prototipo Sketch](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/ProtoipoBajaFidelidad.jpg)
+
+
+## Decisiones de Diseño
+
+### Paleta de color 🎨
+
+La paleta de color fue definida en el prototipo de alta fidelidad, se usan colores claros basados en el amarillo que caracterizan a personajes de Pokemon. en combinarción con blancos y grises para no distraer al usuario del objetivo principal que es mostrar la imagen de cada Pokemon.
+
+![](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/palette.jpg)
+
+
+### Tipografía
+
+La tipografía elegida para este proyecto es Rubik 🖌
+
+![](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/TipografiaRubik.jpg)
+
+
+### Prototipo Alta Fidelidad 
+
+![Esquemaen Prototipo de Alta Fidelidad 👍](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/ProtoipoAltaFidelidad.jpg)
+
+
+### Testeo de Usabilidad en protoripo interactivo
+
+Puedes revisarlo en 👉  [Prototipo en Figma](https://www.loom.com/share/8de01bce3d8f440c99204241df9e5775) 
