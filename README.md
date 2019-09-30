@@ -18,8 +18,6 @@
 
 *  [Producto Final](#producto-final)
 
-*  [Checklist](#checklist)
-
   
 ***
 
