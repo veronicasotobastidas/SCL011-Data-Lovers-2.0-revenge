@@ -90,7 +90,7 @@ Esta se realizó en con las historias de usuario y en base a ellas se definio el
     
 3.  Podrá ver más datos de cada pokemon para conocer información que complementa de sus caracteríticas  
 
-    >Ver Tipo Original y Sub Tipo - Altura - Peso - Huevo - Promedio de Aparición en un rango de 10,000
+    >Ver Tipo - Altura - Peso - Huevo - Promedio de Aparición (deslizando el puntero del mouse por sobre la imagen en un :hover Selector)
     
 4.  Podrá cerrar las busquedas y volver a realizar otra cuando el usuario actualice la página.
 5.  Ordenará la búsqueda de manera alfabética, ascente y descente
@@ -98,9 +98,9 @@ Esta se realizó en con las historias de usuario y en base a ellas se definio el
 7.  Filtrará los pokémon según su tipo
 8.  Filtrará los pokémon según su huevo (si lo tiene)
 9.  Filtrará los pokémon según su debilidad
-10.  Conocerá estadísticas asociadas a su tipo y características
+10. Conocerá estadísticas asociadas a su tipo y características
 
-     >Peso - Altura - Eclosión de huevo (deslizando el puntero del mouse por sobre la imagen en un :hover Selector)
+     >Tipo - Huevo - Debilidad por Tipo 
 
 
 ##  Diseño
@@ -186,7 +186,7 @@ La tipografía elegida para este proyecto es Rubik 🖌
 
 ### Testeo de Usabilidad en protoripo interactivo
 
-Puedes revisarlo desde 👉  [Test Usabilidad Prototipo en Loom](https://www.loom.com/share/8de01bce3d8f440c99204241df9e5775) 
+Puedes revisarlo aquí 👉  [Test Usabilidad Prototipo en Loom](https://www.loom.com/share/8de01bce3d8f440c99204241df9e5775) 
 
 
 ## Producto Final
