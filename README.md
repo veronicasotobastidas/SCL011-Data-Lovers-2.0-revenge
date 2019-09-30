@@ -145,7 +145,7 @@ Esta se realizó en base a las historias de usuario y definicieron el trabajo de
 
 ```
 
-### Prototipo Baja Fifelidad
+### Prototipo Baja Fifelidad 📝
 
 ![Prototipo Sketch](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/ProtoipoBajaFidelidad.jpg)
 
@@ -173,14 +173,16 @@ La tipografía elegida para este proyecto es Rubik 🖌
 
 ### Testeo de Usabilidad en protoripo interactivo
 
-Puedes revisarlo en 👉  [Prototipo en Figma](https://www.loom.com/share/8de01bce3d8f440c99204241df9e5775) 
+Puedes revisarlo en 👉  [Test Usabilidad Prototipo en Loom](https://www.loom.com/share/8de01bce3d8f440c99204241df9e5775) 
 
 
 ## Producto Final
 
 Finalmente, luego de algunos cambios sugeridos en el feedback con compañeras y usuarios, en el Producto Final se le permite a este ver en la pagina de inicio los 151 pokemon de la region Kanto, y obtener información de las caracteristicas de altura, peso, huevos y promedio de aparición del pokemon interacctuando con cada imagen de los pokemon (pasando elpuntero delmouse por sobre cada imagen). En una lista de selectores ordenarlos alfabéticamente y por su número en la pokedex, filtrar pokemon por tipo, huevo y debilidad. Además de ver estadisticas que se muestran en la medida que el usuario va ingresando sus opciones.
 
-Para ver y probar el resultado funcionando puedes ingresar 👉 [aqui](https://veronicasotobastidas.github.io/SCL011-Data-Lovers-2.0-revenge/src/index.html)
+![Esquemaen Vista Producto Final](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/ProductoFinal1.png)
+
+Para ver y probar el resultado funcionando puedes ingresar 👉 [aquí](https://veronicasotobastidas.github.io/SCL011-Data-Lovers-2.0-revenge/src/index.html)
 
 
 ***
