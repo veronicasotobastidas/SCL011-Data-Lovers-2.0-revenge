@@ -90,7 +90,7 @@ Esta se realizó en base a las historias de usuario y en base a ellas se definio
     
 3.  Podrá ver más datos de cada pokemon para conocer información que complementa de sus caracteríticas  
 
-    > Su tipo original y sub tipos. Altura - Peso - Huevos - Promedio de Aparición en un rango de 10,000
+    >Su tipo original y sub tipos. Altura - Peso - Huevos - Promedio de Aparición en un rango de 10,000
     
 4.  Podrá cerrar las busquedas y volver a realizar otra cuando el usuario actualice la página.
 5.  Ordenará la búsqueda de manera alfabética ascente y descente
@@ -100,7 +100,7 @@ Esta se realizó en base a las historias de usuario y en base a ellas se definio
 9.  Filtrará los pokémon según su debilidad
 10.  Conocerá estadísticas asociadas a su tipo y características
 
-    > Peso, altura, eclosión de huevo (deslizando el puntero del mouse por sobre la imagen en un :hover Selector)
+     >Peso, altura, eclosión de huevo (deslizando el puntero del mouse por sobre la imagen en un :hover Selector)
 
 
 ##  Diseño
