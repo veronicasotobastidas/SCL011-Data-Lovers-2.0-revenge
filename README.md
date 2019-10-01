@@ -185,7 +185,7 @@ Puedes revisarlo aquí 👉  [Test Usabilidad Prototipo en Loom](https://www.loo
 
 ### Paleta de color 🎨
 
-La paleta de color fue definida en el prototipo de alta fidelidad, se usan colores basados en la gama amarillo-claro que caracterizan a personajes de Pokémon. Esto combinación con blancos y grises para no distraer al usuario del objetivo principal que es mostrar la imagen de cada pokémon en las tarjetas de la página de inicio.
+La paleta de color fue definida tras el prototipo de alta fidelidad, se decidió usar colores basados en la gama amarillo-claro que caracterizan a personajes de Pokémon. Esto combinación con blancos y grises para no distraer al usuario del objetivo principal que es mostrar la imagen de cada pokémon en las tarjetas de la página de inicio.
 
 ![](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/palette.jpg)
 
