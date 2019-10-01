@@ -29,6 +29,7 @@
 **"Pokémon Easy Guide"** es una guía fácil, o simple, que contiene información para jugadores de Pokémon Go y está enfocada en los 151 Pokémon de la región de Kanto. En ella se pueden visualizar datos de cada pokemon por peso, altura, huevos o tipo, y también, conocer sus debilidades para prepararlos en futuras batallas Pokémon. 
 
 
+
 ## Definición de Usuario
 
 El usuario de esta página web es una persona de entre los 15 y 30 años, sin distingir genéro. No es jugador experto pero tiene conocimiento acerca de la serie de televisión "Pokémon" y ha instalado la aplicación "Pokémon GO" en su dispositivo móvil. Quiere ganar experiencia en el juego y para ello necesita conocer datos acerca de cada Pokémon.
@@ -54,6 +55,7 @@ Yo como jugador de Pokémon Go, quiero poder filtrar por huevo, para saber que h
 Yo como jugador de Pokémon Go, quiero poder filtrar por debilidad, para poder batallar en los gimnasios y ver que pokémon equipar.
  
 
+
 ## Criterios de aceptación y requerimientos DOD
 
 -   Mostrar la lista de todos los pokémons según su número y nombre en el inicio de página
@@ -62,6 +64,7 @@ Yo como jugador de Pokémon Go, quiero poder filtrar por debilidad, para poder b
 -   Filtrar los pokémon según su huevo
 -   Filtrar los pokémon según su debilidad
 -   Mostrar información más específica de cada pokémon, asi como estadísticas
+
 
 
 ## Definición del Producto
@@ -103,6 +106,7 @@ Esta se realizó en con las historias de usuario y en base a ellas se definio el
 10. Conocerá estadísticas asociadas a su tipo y características
 
      >Tipo - Huevo - Debilidad por Tipo 
+
 
 
 ##  Diseño
@@ -183,7 +187,7 @@ La tipografía elegida para este proyecto es Rubik 🖌
 
 ### Prototipo Alta Fidelidad 👍
 
-El prototipo de Alta calidad esta diseñado en base a la tipografía de la franquicia Pokémon y Pokémon GO en un estilo gráfico dada su condición de serie de televisión estilo "manga", y de la aplicación como videojuego y animación. Para el producto final se agregarán en el diseño imagenes de personajes caracteristicos de la serie animada. 
+El prototipo de Alta Fideidad esta diseñado en base a la tipografía de la franquicia Pokémon y Pokémon GO en un estilo gráfico dada su condición de serie de televisión estilo "manga", y de la aplicación como videojuego y animación. Para el producto final se agregarán en el diseño imagenes de personajes caracteristicos de la serie animada. 
 
 ![Prototipo de Alta Fidelidad Figma](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/ProtoipoAltaFidelidad.jpg)
 
@@ -191,6 +195,7 @@ El prototipo de Alta calidad esta diseñado en base a la tipografía de la franq
 ### Testeo de Usabilidad en protoripo interactivo
 
 Puedes revisarlo aquí 👉  [Test Usabilidad Prototipo en Loom](https://www.loom.com/share/8de01bce3d8f440c99204241df9e5775) 
+
 
 
 ## Producto Final
