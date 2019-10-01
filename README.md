@@ -90,9 +90,9 @@ Esta se realizó en con las historias de usuario y en base a ellas se definio el
 
     >Número - Nombre - Imagen
     
-3.  Podrá ver más datos de cada pokemon para conocer información que complementa de sus caracteríticas  
+3.  Podrá ver más datos de cada pokemon para conocer información que complementa sus caracteríticas  
 
-    >Ver Tipo - Altura - Peso - Huevo - Promedio de Aparición (deslizando el puntero del mouse por sobre la imagen en un :hover Selector)
+    >Tipo - Altura - Peso - Huevo - Promedio de Aparición (deslizando el puntero del mouse por sobre la imagen en un :hover Selector)
     
 4.  Podrá cerrar las busquedas y volver a realizar otra cuando el usuario actualice la página.
 5.  Ordenará la búsqueda de manera alfabética, ascente y descente
@@ -183,6 +183,8 @@ La tipografía elegida para este proyecto es Rubik 🖌
 
 ### Prototipo Alta Fidelidad 👍
 
+El prototipo de Alta calidad esta diseñado en base a la tipografía de la franquicia Pokémon y Pokémon GO en un estilo gráfico dada su condición de serie de televisión estilo "manga", y de la aplicación como videojuego y animación. Para el producto final se agregarán en el diseño imagenes de personajes caracteristicos de la serie animada. 
+
 ![Prototipo de Alta Fidelidad Figma](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/ProtoipoAltaFidelidad.jpg)
 
 
@@ -195,7 +197,7 @@ Puedes revisarlo aquí 👉  [Test Usabilidad Prototipo en Loom](https://www.loo
 
 Finalmente, luego de algunos cambios sugeridos en el test de usabilidad con usuario y feedback del squad de Laboratoria, en el Producto Final se le permite al usuario ver en la página de inicio los 151 pokémon de la región Kanto, y obtener información de las caracteristicas de altura, peso, huevos y promedio de aparición del pokémon, para ello el usuario debe interactuar con cada imagen de pokémon deslizando el puntero del mouse por sobre la imagen (en un :hover Selector). 
 
-En una lista de selectores alcostado derecho de página, podrá ordenarlos alfabéticamente y por su número en la pokédex, filtrar pokémon por tipo, huevo y debilidad. Además bajo ests selectores, obtendrá estadisticas y promedios en porcentaje que se muestran en la medida que el usuario va ingresando sus opciones.
+En una lista de selectores al costado derecho de la página, podrá ordenarlos alfabéticamente y por su número en la pokédex, filtrar los pokémon por tipo, huevo y debilidad. Además bajo estos selectores, podrá ver estadisticas y promedios en porcentaje que se muestran en la medida que el usuario va ingresando sus opciones.
 
 
 ![Imagen de Producto Final](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/ProductoFinal1.png)
