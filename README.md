@@ -26,7 +26,7 @@
 
 ## Preámbulo
 
-**"Pokémon Easy Guide"** es una guía fácil, o simple, que contiene información para jugadores de Pokémon Go y está enfocada en los 151 Pokémon de la región de Kanto. En ella se pueden visualizar datos de cada pokemon por peso, altura, huevos o tipo, y también, conocer sus debilidades para prepararlos en futuras batallas Pokémon. 
+**"Pokémon Easy Guide"** es una guía fácil, o simple, que contiene información para jugadores de Pokémon Go y está enfocada en los 151 Pokémon de la región de Kanto. En ella se pueden visualizar datos de cada pokémon por peso, altura, huevos o tipo, y también, conocer sus debilidades para prepararlos en futuras batallas Pokémon. 
 
 
 
@@ -37,7 +37,7 @@ El usuario de esta página web es una persona de entre los 15 y 30 años, sin di
 
 ### Investigación del Usuario
 
-Se relizaron entrevistas a usuarios del juego donde en su mayoria se trata de usuarios nuevos o que han empezado a jugar tardiamente. Conocen la franquicia Pokémon y Pokémon GO pero solo tienen información en general del juego. Un porcentaje pequeño, entre 25 y 30 años, juega por nostalgia de su época de niñez. Usa aplicaciones o visita páginas web para conocer estadísticas de los Pokémon e investiga por su cuenta. Desea llegar a niveles altos, número 30 o 40, del juego.
+Se relizaron entrevistas a usuarios del juego donde en su mayoria se trata de usuarios nuevos o que han empezado a jugar tardiamente. Conocen la franquicia Pokémon y Pokémon GO pero solo tienen información en general del juego. Un porcentaje pequeño, entre 25 y 30 años, juega por nostalgia de su época de niñez. Usa aplicaciones o visita páginas web para conocer estadísticas de los pokémon e investiga por su cuenta. Desea llegar a niveles altos, número 30 o 40, del juego.
 
 
 ## Historias de Usuario
@@ -56,14 +56,14 @@ Yo como jugador de Pokémon Go, quiero poder filtrar por debilidad, para poder b
  
 
 
-## Criterios de aceptación y requerimientos DOD
+## Criterios de aceptación y requerimientos DoD
 
 -   Mostrar la lista de todos los pokémons según su número y nombre en el inicio de página
 -   Ordenar los personajes alfabéticamente y también por su número de Pokédex
 -   Filtrar los pokémon según su tipo
 -   Filtrar los pokémon según su huevo
 -   Filtrar los pokémon según su debilidad
--   Mostrar información más específica de cada pokémon, asi como estadísticas
+-   Mostrar información más específica de cada pokémon y estadísticas
 
 
 
@@ -71,39 +71,39 @@ Yo como jugador de Pokémon Go, quiero poder filtrar por debilidad, para poder b
 
 ### Experiencia
 
-El usuario de esta aplicación ingresará a la página y podrá ver la lista completa de los 151 Pokémon de la región de Kanto. Cada tarjeta donde se muestra el pokémon tendrá su nombre, número en la pokédex y datos de su peso, altura, huevo y promedio de aparición. En una columna ubicada al lado derecho, se muestran los selectores que permiten al usuario realizar filtros según el tipo de pokémon, huevo o tipo de debilidad. A continuación y debajo de los selectores, cada vez que el usuraio aplica algun filtro, aparecen estadísticas en porcentaje de los pokémon por tipo, huevo y debilidad, kilometros de incubación de huevos y datos de su promedio de aparición. 
+El usuario de esta web ingresará a la página y podrá ver la lista completa de los 151 Pokémon de la región de Kanto. Cada tarjeta donde se muestra el pokémon tendrá su nombre, número en la pokédex y datos de su peso, altura, huevo y promedio de aparición. En una columna ubicada al lado derecho, se mostrarán los selectores que permiten al usuario realizar filtros según el tipo de pokémon, huevo o tipo de debilidad. A continuación y debajo de los selectores, cada vez que el usuario aplica algun filtro, aparecen estadísticas en porcentaje de los pokémon por tipo, huevo y debilidad, kilometros de incubación de huevos y datos de su promedio de aparición. 
 
 
-### Requerimientos de la Aplicación
+### Requerimientos 
 
 -   Los datos deben encontrarse rapidamente
 -   Los datos deben tener un acceso claro y fácil
 -   El usuario tendrá acceso a toda la interación en la página principal
 -   Debe permitir ordenar de forma alfabética y por número.
 -   Debe permitir realizar búsquedas por tipo
--   Debe poder ver estadísticas
+-   Debe mostrar estadísticas
 
 
 ### Planificación 
 
-Esta se realizó en con las historias de usuario y en base a ellas se definio el trabajo de cada sección consecutiva en la página.
+Esta se realizó con las historias de usuario y en base a ellas se definio el orden de trabajo de cada sección en la página.
 
 1.  Acceder a la página
-2.  Previsualizar la información básica del Pókemon 
+2.  Previsualizar la información básica del pokémon: 
 
     >Número - Nombre - Imagen
     
-3.  Podrá ver más datos de cada pokemon para conocer información que complementa sus caracteríticas  
+3.  Podrá ver más datos de cada pokemon para conocer información que complementa sus caracteríticas:  
 
-    >Tipo - Altura - Peso - Huevo - Promedio de Aparición (deslizando el puntero del mouse por sobre la imagen en un :hover Selector)
+    >Tipo - Altura - Peso - Huevo - Promedio de Aparición
     
 4.  Podrá cerrar las busquedas y volver a realizar otra cuando el usuario actualice la página.
-5.  Ordenará la búsqueda de manera alfabética, ascente y descente
-6.  Ordenará la búsqueda de forma númerica, ascente y descente
+5.  Ordenará los pokémon de manera alfabética, ascente y descente
+6.  Ordenará los pokémon de forma númerica, ascente y descente
 7.  Filtrará los pokémon según su tipo
 8.  Filtrará los pokémon según su huevo (si lo tiene)
 9.  Filtrará los pokémon según su debilidad
-10. Conocerá estadísticas asociadas a su tipo y características
+10. Conocerá estadísticas asociadas a su tipo y características:
 
      >Tipo - Huevo - Debilidad por Tipo 
 
@@ -162,9 +162,9 @@ Esta se realizó en con las historias de usuario y en base a ellas se definio el
 
 ```
 
-### Prototipo Baja Fifelidad 📝
+### Prototipo de Baja Fifelidad 📝
 
-![Prototipo Sketch](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/ProtoipoBajaFidelidad.jpg)
+![Esquemaen Prototipo Sketch](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/ProtoipoBajaFidelidad.jpg)
 
 
 
@@ -173,7 +173,7 @@ Esta se realizó en con las historias de usuario y en base a ellas se definio el
 
 ### Paleta de color 🎨
 
-La paleta de color fue definida en el prototipo de alta fidelidad, se usan colores basados en la gama amarillo-claro que caracterizan a personajes de Pokémon. En combinación con blancos y grises para no distraer al usuario del objetivo principal que es mostrar la imagen de cada Pokémon en las tarjetas de la página de inicio.
+La paleta de color fue definida en el prototipo de alta fidelidad, se usan colores basados en la gama amarillo-claro que caracterizan a personajes de Pokémon. Esto combinación con blancos y grises para no distraer al usuario del objetivo principal que es mostrar la imagen de cada pokémon en las tarjetas de la página de inicio.
 
 ![](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/palette.jpg)
 
@@ -187,9 +187,9 @@ La tipografía elegida para este proyecto es Rubik 🖌
 
 ### Prototipo Alta Fidelidad 👍
 
-El prototipo de Alta Fideidad esta diseñado en base a la tipografía de la franquicia Pokémon y Pokémon GO en un estilo gráfico dada su condición de serie de televisión estilo "manga", y de la aplicación como videojuego y animación. Para el producto final se agregarán en el diseño imagenes de personajes caracteristicos de la serie animada. 
+El prototipo de Alta Fidelidad esta diseñado en base a la tipografía de la franquicia Pokémon en un estilo gráfico dada su condición de serie de televisión estilo "manga", con imgenes de los pokémon comose les muestra en la aplicación de videojuego Pokémon GO. Para el producto final se agregarán en el diseño imágenes de personajes característicos de la serie animada. 
 
-![Prototipo de Alta Fidelidad Figma](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/ProtoipoAltaFidelidad.jpg)
+![[Esquemaen Prototipo de Alta Fidelidad Figma](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/ProtoipoAltaFidelidad.jpg)
 
 
 ### Testeo de Usabilidad en protoripo interactivo
