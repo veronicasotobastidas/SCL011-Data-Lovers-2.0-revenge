@@ -16,7 +16,7 @@
 
 *  [Diseño](#diseno)
 
-*  [Decisiones de Diseño](#decisiones-de-Diseño)
+*  [Decisiones de Diseño](#decisiones-de-diseno)
 
 *  [Producto Final](#producto-final)
 
