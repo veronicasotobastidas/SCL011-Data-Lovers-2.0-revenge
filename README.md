@@ -14,9 +14,9 @@
 
 *  [Definición del Producto](#definicion-del-producto)
 
-*  [Diseño](#diseno)
+*  [Diseño](#diseño)
 
-*  [Decisiones de Diseño](#decisiones-de-diseno)
+*  [Decisiones de Diseño](#decisiones-de-diseño)
 
 *  [Producto Final](#producto-final)
 
