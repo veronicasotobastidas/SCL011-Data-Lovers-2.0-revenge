@@ -10,7 +10,7 @@
 
 *  [Historias de Usuario](#historias-de-usuario)
 
-*  [Criterios de aceptación](#criterios-de-aceptacion)
+*  [Criterios de aceptación y requerimientos DoD ](#criterios-de-aceptacion-y-requerimientos-dod)
 
 *  [Definición del Producto](#definicion-del-producto)
 
