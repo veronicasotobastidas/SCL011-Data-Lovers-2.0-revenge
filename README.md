@@ -10,7 +10,7 @@
 
 *  [Historias de Usuario](#historias-de-usuario)
 
-*  [Criterios de aceptación y requerimientos DoD ](#criterios-de-aceptacion-y-requerimientos-dod)
+*  [Criterios de aceptación y requerimientos DoD ](#criterios-de-aceptacion-requerimientos-dod)
 
 *  [Definición del Producto](#definicion-del-producto)
 
@@ -24,13 +24,13 @@
 ***
 
 
-## Preámbulo
+# Preámbulo
 
 **"Pokémon Easy Guide"** es una guía fácil, o simple, que contiene información para jugadores de Pokémon Go y está enfocada en los 151 Pokémon de la región de Kanto. En ella se pueden visualizar datos de cada pokémon por peso, altura, huevos o tipo, y también, conocer sus debilidades para prepararlos en futuras batallas Pokémon. 
 
 
 
-## Definición de Usuario
+# Definición de Usuario
 
 El usuario de esta página web es una persona de entre los 15 y 30 años, sin distingir genéro. No es jugador experto pero tiene conocimiento acerca de la serie de televisión "Pokémon" y ha instalado la aplicación "Pokémon GO" en su dispositivo móvil. Quiere ganar experiencia en el juego y para ello necesita conocer datos acerca de cada Pokémon.
 
@@ -40,7 +40,7 @@ El usuario de esta página web es una persona de entre los 15 y 30 años, sin di
 Se relizaron entrevistas a usuarios del juego donde en su mayoria se trata de usuarios nuevos o que han empezado a jugar tardiamente. Conocen la franquicia Pokémon y Pokémon GO pero solo tienen información en general del juego. Un porcentaje pequeño, entre 25 y 30 años, juega por nostalgia de su época de niñez. Usa aplicaciones o visita páginas web para conocer estadísticas de los pokémon e investiga por su cuenta. Desea llegar a niveles altos, número 30 o 40, del juego.
 
 
-## Historias de Usuario
+# Historias de Usuario
 
 ### HU 1
 Yo como jugador de Pokémon Go, quiero ver a todos los personajes de la región de Kanto, para encontrarlos por su nombre.
@@ -56,7 +56,7 @@ Yo como jugador de Pokémon Go, quiero poder filtrar por debilidad, para poder b
  
 
 
-## Criterios de aceptación y requerimientos DoD
+# Criterios de aceptación y requerimientos DoD
 
 -   Mostrar la lista de todos los pokémons según su número y nombre en el inicio de página
 -   Ordenar los personajes alfabéticamente y también por su número de Pokédex
@@ -67,7 +67,7 @@ Yo como jugador de Pokémon Go, quiero poder filtrar por debilidad, para poder b
 
 
 
-## Definición del Producto
+# Definición del Producto
 
 ### Experiencia
 
@@ -109,7 +109,7 @@ Esta se realizó con las historias de usuario y en base a ellas se definio el or
 
 
 
-##  Diseño
+#  Diseño
 
 ### Control de Flujo
 ```text
@@ -168,7 +168,7 @@ Esta se realizó con las historias de usuario y en base a ellas se definio el or
 
 
 
-## Decisiones de Diseño
+# Decisiones de Diseño
 
 
 ### Paleta de color 🎨
@@ -198,7 +198,7 @@ Puedes revisarlo aquí 👉  [Test Usabilidad Prototipo en Loom](https://www.loo
 
 
 
-## Producto Final
+# Producto Final
 
 Finalmente, luego de algunos cambios sugeridos en el test de usabilidad con usuario y feedback del squad de Laboratoria, en el Producto Final se le permite al usuario ver en la página de inicio los 151 pokémon de la región Kanto, y obtener información de las caracteristicas de altura, peso, huevos y promedio de aparición del pokémon, para ello el usuario debe interactuar con cada imagen de pokémon deslizando el puntero del mouse por sobre la imagen (en un :hover Selector). 
 
