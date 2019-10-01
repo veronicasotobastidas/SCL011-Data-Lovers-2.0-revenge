@@ -171,7 +171,7 @@ Esta se realizó con las historias de usuario y en base a ellas se definio el or
 # Decisiones de Diseño
 
 
-### Prototipo Alta Fidelidad 👍
+### Prototipo de Alta Fidelidad 👍
 
 El prototipo de Alta Fidelidad esta diseñado en base a la tipografía de la franquicia Pokémon en un estilo gráfico dada su condición de serie de televisión estilo "manga", con imgenes de los pokémon comose les muestra en la aplicación de videojuego Pokémon GO. Para el producto final se agregarán en el diseño imágenes de personajes característicos de la serie animada. 
 
