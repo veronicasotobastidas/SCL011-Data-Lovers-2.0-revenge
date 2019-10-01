@@ -189,7 +189,7 @@ La tipografía elegida para este proyecto es Rubik 🖌
 
 El prototipo de Alta Fidelidad esta diseñado en base a la tipografía de la franquicia Pokémon en un estilo gráfico dada su condición de serie de televisión estilo "manga", con imgenes de los pokémon comose les muestra en la aplicación de videojuego Pokémon GO. Para el producto final se agregarán en el diseño imágenes de personajes característicos de la serie animada. 
 
-![[Esquemaen Prototipo de Alta Fidelidad Figma](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/ProtoipoAltaFidelidad.jpg)
+![Esquemaen Prototipo de Alta Fidelidad Figma](https://raw.githubusercontent.com/veronicasotobastidas/SCL011-Data-Lovers-2.0-revenge/master/src/img/ProtoipoAltaFidelidad.jpg)
 
 
 ### Testeo de Usabilidad en protoripo interactivo
